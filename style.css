@@ -1,0 +1,163 @@
+body {
+  background: #ededed;
+}
+/* every box is this size */
+
+
+
+.box{
+  padding: 10px;
+  background: white;
+  margin-top:50px;
+  margin-left:5px;
+  margin-right:5px;
+  margin-bottom:20px;
+  align-content: center;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: serif;
+    font-weight: 550;
+    line-height: 1.1;
+    color: #4aaaa5;
+}
+.h2 {
+    font-family: serif;
+    font-size: 50px !important;
+    font-weight: 550;
+    line-height: 1.1;
+    color: #4aaaa5;
+    text-align: center;
+    vertical-align: center;
+}
+
+
+
+
+.btn-primary {
+    color: #8b8c8c !important;
+    font-size: 15px;
+    background-color: #fff !important;
+    border-color: #fff !important;
+}
+
+.btn-primary:hover {
+    color: #8b8c8c !important;
+    background-color: #fff !important;
+    border-color: #fff !important;
+}
+
+.navbar-inverse {
+    border-color: #ffffff !important;
+}
+
+
+.btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
+    color: #fff !important;
+    background-color: #4aaaa5 !important;
+    border-color: #4aaaa5 !important;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+    color: #fff !important;
+    background-color: #4aaaa5 !important;
+    border-color: #4aaaa5 !important;
+}
+
+.navbar-nav>li>a {
+    padding-top: 7px;
+    padding-bottom: 15px;
+}
+
+/* Giving our navbar some padding and a background color */
+.navbar {
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 10px;
+  background: #ffff;
+ 
+}
+
+/* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+.navbar li {
+  display: d-block;
+  padding: 10px;
+  margin-right: 0px;
+  margin-left: 0px;
+  vertical-align: middle;
+  cursor: pointer;
+  color: #4aaaa5;
+}
+h1 {
+  font-size: 35px;
+}
+h2 {
+  font-size: 20px;
+}
+
+
+p{
+    font-size: 15px;
+     color: #8b8c8c;
+    padding-top: 30px;
+}
+
+
+.c-d{color:#8b8c8c;
+  font-size: 15px;
+}
+
+.latitude {
+  color: white;
+  font-family:serif;
+  font-size: 40px;
+  background-color: #4aaaa5;
+  border: 1px solid #4aaaa5;
+    padding: 15px;
+}
+/* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
+@media (max-width: 480px) {
+  .navbar li {
+    padding: 10px;
+  }
+  .box {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .navbar ul {
+    visibility: hidden;
+  }
+  #nav-select {
+    visibility: visible;
+  }
+}
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+.box {
+    padding: 30px !important;
+    background: white;
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    align-content: center;
+}
